@@ -1,2 +1,2 @@
 # webQueryWxApplet
-webQueryWxApplet for C4
+This is the applet of WeChat of the Cisco C4 competition.
