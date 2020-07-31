@@ -1,0 +1,16 @@
+/* pages/teachingB/teachingB.wxss */
+.teachingB-group{
+  height: 60px;
+  line-height: 60px;
+  padding:10px;
+  border-bottom: 1px solid #fcb0b0;
+  margin: 10px;
+}
+
+.teachingB-group .content_te{
+  float:left;
+}
+
+.teachingB-swiper{
+  height: 90vh;
+}

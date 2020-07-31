@@ -1,0 +1,23 @@
+.room{
+  height: 60px;
+  line-height: 60px;
+  padding:10px;
+  border-bottom: 1px solid #f1b7b7;
+}
+
+.detail-group{
+  height: 60px;
+  line-height: 60px;
+  padding:10px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.detail-group .content{
+  float:left;
+}
+
+.detail-group .friend{
+  float:right;
+  font-size:12px;
+  color:blueviolet;
+}

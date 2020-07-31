@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/wifi/wifi",
+    "pages/library/library",
+    "pages/teachingB/teachingB"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "烧仙草",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1ad16",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "person",
+        "iconPath": "images/tabbar/01.png",
+        "selectedIconPath": "images/tabbar/01-p.png"
+      },
+      {
+        "pagePath": "pages/wifi/wifi",
+        "text": "wifi",
+        "iconPath": "images/tabbar/02.png",
+        "selectedIconPath": "images/tabbar/02-p.png"
+      }
+    ]
+  }
+}

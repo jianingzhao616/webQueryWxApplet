@@ -1,0 +1,10 @@
+<template name="detail">
+  <view class="detail-group">
+  <text class='content'>{{room}}</text>
+    <text class="content">
+    健康度:
+    最大带宽:
+    使用人数:</text>
+    <text class="friend">下拉刷新</text>
+  </view>
+</template>

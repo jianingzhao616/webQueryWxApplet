@@ -1,0 +1,18 @@
+<!--pages/teachingB/teachingB.wxml-->
+
+<view class="">
+
+<swiper class="teachingB-swiper" indicator-dots='{{true}}'>
+    <swiper-item wx:for="{{teachingB}}">
+        <view class="">
+            <text>{{item.WIFIname}}
+                使用人数{{item.userNum}}
+                最大带宽{{item.MaxSpeed}}
+                当前速度{{item.CurSpeed}}
+            </text>
+            <text hidden="{{item.isRecommend}}" style="color:red;">不推荐</text>
+            <text hidden="{{!item.isRecommend}}" style="color:green;">推荐</text>     
+        </view>  
+    </swiper-item>
+</swiper>
+</view>

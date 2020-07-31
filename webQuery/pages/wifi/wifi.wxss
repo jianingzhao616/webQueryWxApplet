@@ -1,0 +1,19 @@
+/* pages/wifi/wifi.wxss */
+.wifi-group{
+  height: 60px;
+  line-height: 60px;
+  padding:10px;
+  border-bottom: 1px solid #b7dfff;
+  margin: 10px;
+}
+
+.wifi-group .content_w1{
+  float:left
+}
+
+.wifi-group .content_w2{
+  float:right;
+  font-size: 12px;
+  color:blueviolet;
+}
+

@@ -1,0 +1,12 @@
+<!--pages/wifi/wifi.wxml-->
+
+<view class="wifi-group" bind:tap="onViewClick_1">
+    <text class="content_w1">教学楼WiFi
+    </text>
+    <text class="content_w2">共2间教室</text>
+</view>
+<view class="wifi-group" bind:tap="onViewClick_2">
+    <text class="content_w1">图书馆WiFi
+    </text>
+    <text class="content_w2">共3层</text>
+</view>
